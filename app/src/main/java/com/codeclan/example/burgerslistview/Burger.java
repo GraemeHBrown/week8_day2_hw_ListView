@@ -7,9 +7,9 @@ package com.codeclan.example.burgerslistview;
 public class Burger {
 
     private String name;
-    private Double price;
+    private String price;
 
-    public Burger(String name, Double price){
+    public Burger(String name, String price){
         this.price = price;
         this.name = name;
 
@@ -19,7 +19,7 @@ public class Burger {
         return this.name;
     }
 
-    public Double getPrice() {
+    public String getPrice() {
         return this.price;
     }
 }
